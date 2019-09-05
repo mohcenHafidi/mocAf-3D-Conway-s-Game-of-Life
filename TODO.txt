@@ -1,0 +1,17 @@
+# For the Build : 
+  - install visual studio 2019 (it's okay if you have the free version or an older version).
+  - launch "mocAf-3D Conway's Game of Life.sln" file.
+  
+# How to use :
+  - To change the scene : go to the main file and change this line "CA_gameOfLife gameOfLifeObj(1);" to "CA_gameOfLife gameOfLifeObj(2);"
+  - To move arround the scene using 'q' 'z' 's' 'd' and 'r' 'f' , use the mouse to rotate and the scroll wheel to zoom-in.
+  - To change the speed of the generations use 'O' and 'L'.
+  - To change the textures go to the main file and modify these two lines : 
+      models.push_back(Model("ressources/models/quad/quad_Green.obj", false));
+      models.push_back(Model("ressources/models/quad/quad_Black.obj", false));
+    ex:   
+      models.push_back(Model("ressources/models/quad/quad_Blue.obj", false));
+      models.push_back(Model("ressources/models/quad/quad_Red.obj", false));
+  
+
+
