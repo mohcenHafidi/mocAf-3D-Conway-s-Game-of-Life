@@ -1,5 +1,5 @@
 # 3D Conway's Game of Life
-This is a real-time Conway's game of life renderer built with OpenGL. A main focus of this project is to build an interactive cellular automata system and use it to bring the Conway's game of life to life (i.e. make The Conway's game of life visual and interactive). Another large focus of this project is to be the most optimal possible in terms of rendering and calculus.
+This is a real-time Conway's game of life renderer built with OpenGL. A main focus of this project is to build an interactive Cellular Automaton system and use it to bring the Conway's game of life to life (i.e. make The Conway's game of life visual and interactive). Another large focus of this project is to be the most optimal possible in terms of rendering and calculus.
 
 ![1 2](https://user-images.githubusercontent.com/53482702/64303926-a60fca80-cf8a-11e9-876f-5bc6be847bde.png)
 
