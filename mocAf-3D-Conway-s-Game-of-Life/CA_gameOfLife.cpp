@@ -42,7 +42,7 @@ void CA_gameOfLife::configureAttribParam(Model model)
 		glVertexAttribDivisor(5, 1);
 		glVertexAttribDivisor(6, 1);
 
-		glBindVertexArray(0);
+		
 	}
 }
 
@@ -75,7 +75,7 @@ void CA_gameOfLife::renderModel(Model model, unsigned int amount)
 	{
 		glBindVertexArray(model.meshes[i].VAO);
 		glDrawElementsInstanced(GL_TRIANGLES, model.meshes[i].indices.size(), GL_UNSIGNED_INT, 0, amount);
-		glBindVertexArray(0);
+		
 	}
 }
 
