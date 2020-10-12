@@ -49,7 +49,7 @@ int main()
 	zBuffer(true);
 	faceCulling();
 
-	Shader ourShader("mocAf-3D-Conway-s-Game-of-Life/ressources/shaders/shader.vs", "mocAf-3D-Conway-s-Game-of-Life/ressources/shaders/shader.fs");
+	
 	Shader ourShader2("mocAf-3D-Conway-s-Game-of-Life/ressources/shaders/shader_InstancedRendering.vs", "mocAf-3D-Conway-s-Game-of-Life/ressources/shaders/shader_InstancedRendering.fs");
 
 
